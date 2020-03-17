@@ -100,4 +100,4 @@ theme: mag
 deploy:
   type: 'git'
   repo: https://github.com/Leeroy6821/magBlog.git
-# branch: gh_pages
+  branch: gh-pages
