@@ -3,18 +3,18 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Hexo
+title: Magnetic
 subtitle: ''
-description: ''
+description: 'site with anothe themes'
 keywords:
-author: John Doe
+author: Leeroy6821
 language: en
-timezone: ''
+timezone: 'Europe/Kiev'
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: http://yoursite.com
-root: /
+url: https://github.com/Leeroy6821
+root: /magBlog/
 permalink: :year/:month/:day/:title/
 permalink_defaults:
 pretty_urls:
@@ -93,9 +93,11 @@ ignore:
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: landscape
+theme: mag
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
-  type: ''
+  type: 'git'
+  repo: https://github.com/Leeroy6821/magBlog.git
+# branch: gh_pages
