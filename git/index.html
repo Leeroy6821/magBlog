@@ -20,7 +20,7 @@
 
     <!--Open Graph Title-->
     
-        <meta property="og:title" content="Налаштування Git"/>
+        <meta property="og:title" content="git"/>
     
 
     <!--Open Graph Site Name-->
@@ -33,7 +33,7 @@
 
     <!-- Title -->
     
-    <title>Налаштування Git - Magnetic</title>
+    <title>git - Magnetic</title>
 
     <!-- Custom CSS -->
     
@@ -129,7 +129,7 @@
 <!-- Main Content -->
 <section class="main clearfix">
 
-    <section class="top" style="background: url('http://placehold.it/1300x500');">
+    <section class="top" style="background: url('earth.jpg');">
         <div class="wrapper content_header clearfix">
             
 
@@ -137,16 +137,16 @@
 
     <ul class="btn clearfix">
         
-        <li><a class="previous disabled"></a></li>
+        <li><a href="/magBlog/node/" class="previous" data-title="node"></a></li>
         
         <li><a href="/magBlog/" class="grid" data-title="Portfolio"></a></li>
         
-        <li><a href="/magBlog/2020/03/17/home/" class="next" data-title="home"></a></li>
+        <li><a class="next disabled"></a></li>
         
     </ul>
 
 </div><!-- end work_nav -->
-            <h1 class="title">Налаштування Git</h1>
+            <h1 class="title">git</h1>
         </div>
     </section><!-- end top -->
 
@@ -157,7 +157,12 @@
             
 
             <!-- Content -->
-            <p>Ми будемо використовувати Git для нашої системи керування версіями, тому ми збираємося налаштувати її так, щоб вона відповідала нашому обліковому запису Github. Якщо ви ще не маєте облікового запису Github, не забудьте зареєструватися.</p>
+            <img src="/magBlog/git/Git-icon.png" class="">
+
+<h2 id="Встановлення"><a href="#Встановлення" class="headerlink" title="Встановлення"></a>Встановлення</h2><p>Відкриваємо сайт - <a href="https://git-scm.com/download/" target="_blank" rel="noopener">https://git-scm.com/download/</a>  </p>
+<p>Обираємо платформу на яку встановлюємо git</p>
+<p>Запускаємо Git Bash (Меню пуск)</p>
+<h2 id="Налаштування"><a href="#Налаштування" class="headerlink" title="Налаштування"></a>Налаштування</h2><p>Ми будемо використовувати Git для нашої системи керування версіями, тому ми збираємося налаштувати її так, щоб вона відповідала нашому обліковому запису Github. Якщо ви ще не маєте облікового запису Github, не забудьте зареєструватися.</p>
 <p>Замініть ім’я та адресу електронної пошти на наступні кроки на ті, які ви використовували для свого облікового запису Github.</p>
 <figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">$ git config --global color.ui <span class="literal">true</span></span><br><span class="line">$ git config --global user.name <span class="string">"YOUR NAME"</span></span><br><span class="line">$ git config --global user.email <span class="string">"YOUR@EMAIL.com"</span></span><br><span class="line">$ ssh-keygen -t rsa -b 4096 -C <span class="string">"YOUR@EMAIL.com"</span></span><br></pre></td></tr></table></figure>
 
