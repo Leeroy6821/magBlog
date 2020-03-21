@@ -1,7 +1,7 @@
 ---
 title: node
-date: 2020-03-20 15:46:32
-cover_index: /magBlog/node/Git-icon.png
-cover_detail: earth.jpg
+date: 2020-03-20 09:59:59
+cover_index: /magBlog/node/nodejs-index.jpg
+cover_detail: nodejs-detail.png
 tags:
 ---

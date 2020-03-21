@@ -1,12 +1,10 @@
 ---
 title: git
-date: 2020-03-19 23:29:10
-cover_index: /magBlog/node/Git-icon.png
-cover_detail: earth.jpg
+date: 2020-03-20 10:00:01
+cover_index: /magBlog/git/github-logo.png
+cover_detail: github-detail.jpeg
 tags:
 ---
-
-{% asset_img Git-icon.png %}
 
 ## Встановлення
 Відкриваємо сайт - https://git-scm.com/download/  
